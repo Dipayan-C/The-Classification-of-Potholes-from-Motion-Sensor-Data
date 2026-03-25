@@ -122,4 +122,79 @@ The results demonstrate that motion sensor data can be used effectively for poth
 
 ---
 
-## Project St
+## Project Structure
+
+```plaintext
+pothole-project/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│
+├── src/
+│
+├── results/
+│   ├── figures/
+│   ├── metrics/
+│
+├── docs/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+```
+
+---
+
+## Data
+
+The dataset consists of motion sensor recordings representing different road surface conditions.
+
+* `data/raw/` contains original `.mat` files
+* `data/processed/` contains cleaned and converted datasets
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/Dipayan-C/The-Classification-of-Potholes-from-Motion-Sensor-Data.git
+cd pothole-project
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+To explore the project:
+
+```bash
+cd notebooks
+jupyter notebook
+```
+
+---
+
+## Technologies
+
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* Matplotlib / Seaborn
+* Jupyter Notebook
+
+---
+
+## Report
+
+The full project report is available in the `docs/` directory.
+
+---
+
+## Author
+
+Dipayan Chowdhury
