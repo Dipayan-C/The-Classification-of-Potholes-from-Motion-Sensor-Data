@@ -167,16 +167,6 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
-
-To explore the project:
-
-```bash
-cd notebooks
-jupyter notebook
-```
-
----
 
 ## Technologies
 
@@ -186,13 +176,6 @@ jupyter notebook
 * Scikit-learn
 * Matplotlib / Seaborn
 * Jupyter Notebook
-
----
-
-## Report
-
-The full project report is available in the `docs/` directory.
-
 ---
 
 ## Author
